@@ -1,0 +1,95 @@
+Listas de descrição
+
+	As listas de descrição usam um invólucro diferente dos outros tipos de lista — <dl>; além disso, cada termo está envolvido em um <dt> (termo de descrição) elemento, e cada descrição está envolvida em um <dd> (definição de descrição) elemento. Vamos terminar marcando nosso exemplo:
+	Exemplo:
+<dl>
+  <dt>solilóquio</dt>
+  <dd>No drama, onde um personagem fala a si mesmo, representando seus pensamentos ou sentimentos internos e no processo, transmitindo-os ao público (mas não a outros personagens).</dd>
+  <dt>monólogo</dt>
+  <dd>No drama, onde um personagem fala seus pensamentos em voz alta para compartilhá-los com o público e com outros personagens presentes.</dd>
+  <dt>aparte</dt>
+  <dd>No drama, onde um personagem compartilha um comentário apenas com o público para efeito humorístico ou dramático. Isso geralmente é um sentimento, pensamento ou parte de informação de fundo adicional.</dd>
+</dl>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Cotações
+	HTML também possui recursos disponíveis para marcação de cotações.
+
+	Blockquotes (Nível de bloco)	
+		Se uma seção de conteúdo em nível de bloco (seja um parágrafo, vários parágrafos, uma lista, etc.) for citada em algum outro lugar, você deverá envolvê-la em um elemento <blockquote> para indicar isso e incluir um URL apontando para a fonte da citação dentro de um atributo cite.
+		<blockquote cite="/en-US/docs/Web/HTML/Element/blockquote">
+  <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+  Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+		</blockquote>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+	Cotações (Nível de linha)
+		<p>The quote element — <code>&lt;q&gt;</code> — is <q cite="/en-US/docs/Web/HTML/Element/q">intended
+for short quotations that don't require paragraph breaks.</q></p>
+
+		O elemento de cotação — <q> — é "destinado a citações curtas que não exigem quebras de parágrafo".
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Citações (tem no w3schools mais resumido)
+
+	A <cite>tag HTML define o título de um trabalho criativo (por exemplo, um livro, um poema, uma música, um filme, uma pintura, uma escultura, etc.).
+
+Nota: o nome de uma pessoa não é o título de uma obra.
+
+	<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+	Exemplos:
+
+<p>According to the <a href="/en-US/docs/Web/HTML/Element/blockquote">
+<cite>MDN blockquote page</cite></a>:
+</p>
+
+<blockquote cite="/en-US/docs/Web/HTML/Element/blockquote">
+  <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+  Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+</blockquote>
+
+<p>The quote element — <code>&lt;q&gt;</code> — is <q cite="/en-US/docs/Web/HTML/Element/q">intended
+for short quotations that don't require paragraph breaks.</q> -- <a href="/en-US/docs/Web/HTML/Element/q">
+<cite>MDN q page</cite></a>.</p>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Representando código de computador
+
+Existem vários elementos disponíveis para marcar código de computador usando HTML:
+
+<code>: Para marcar partes genéricas de código de computador.
+<pre>: Para reter espaço em branco (geralmente blocos de código) — se você usar recuo ou espaço em branco em excesso no seu texto, os navegadores o ignorarão e você não o verá na sua página renderizada. Se você envolver o texto nas tags <pre></pre> seu espaço em branco será renderizado de forma idêntica à maneira como você o vê no seu editor de texto.
+<var>: Para marcar especificamente nomes de variáveis.
+<kbd> (en-US): Para marcar a entrada do teclado (e outros tipos) inserida no computador.
+<samp> (en-US): Para marcar a saída de um programa de computador.
+
+EXEMPLO:
+
+<pre><code>var para = document.querySelector('p');
+
+para.onclick = function() {
+  alert('Owww, stop poking me!');
+}</code></pre>
+
+<p>You shouldn't use presentational elements like <code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>.</p>
+
+<p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
+
+
+<p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+
+<pre>$ <kbd>ping mozilla.org</kbd>
+<samp>PING mozilla.org (63.245.215.20): 56 data bytes
+64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+		

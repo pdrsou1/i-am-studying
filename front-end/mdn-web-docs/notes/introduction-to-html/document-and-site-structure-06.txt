@@ -1,0 +1,11 @@
+Estrutura de documento e sites
+
+	Para implementar essa marcação semântica, o HTML fornece tags dedicadas que você pode usar para representar essas seções, por exemplo:
+
+	cabeçalho: <header>.
+	barra de navegação: <nav>.
+	conteúdo principal: <main>, com várias subseções de conteúdo representadas por 	<article>, <section>, e elementos <div>.
+	rodapé: <footer>.
+	<aside> é para conteúdo que não está relacionados diretamente com os conteúdos principais, mas que podem providenciar informações complementares a esses (entradas de glossários, biografia do autor, links relacionados, etc.).
+
+Observação: HTML para estruturar conteúdo

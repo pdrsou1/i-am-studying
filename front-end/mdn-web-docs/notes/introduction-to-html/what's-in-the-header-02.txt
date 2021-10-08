@@ -1,0 +1,30 @@
+Adicionando um autor e descrição
+
+	Muitos elementos <meta>incluem atributos de name e content:
+
+		O  name especifica o tipo de elemento meta que é; que tipo de informação contém.
+		O  content especifica o conteúdo real do meta.
+		Exemplo:	
+			<meta  name=" " content=" ">
+			<meta name="author" content="Chris Mills">
+			<meta name="description" content="A Área de Aprendizagem do MDN tem como objetivo...">
+
+	Observação: Pesquisar sobre "Dados do gráfico aberto" é um protococolo de metadados que o Facebook inventou para fornecer metadados mais ricos para sites. 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Adicionando ícones personalizados ao seu site
+
+	O mais usado é o favicon (abreviação de "ícone de favoritos", referindo-se ao uso nas listas "favoritos" nos navegadores).
+	Um ícone 16 pixels usados ​​em vários lugares.
+	Salvo no formato  .ico
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Aplicando CSS e JavaScript ao HTML
+
+	O elemento <link>sempre vai no cabeçalho do seu documento. Isso requer dois atributos, rel = "stylesheet", que indica que é a folha de estilo do documento e href, que contém o caminho para o arquivo de folha de estilo.
+
+	O elemento  <script>não precisa ir no cabeçalho; na verdade, muitas vezes é melhor esperado-lo na parte inferior do corpo do documento (antes da tag </body>de fechamento).
+	<script src="meu-arquivo-js.js"></script>

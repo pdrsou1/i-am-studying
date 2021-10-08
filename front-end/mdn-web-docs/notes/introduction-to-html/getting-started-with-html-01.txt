@@ -1,0 +1,28 @@
+Elementos em bloco versus elementos inline
+
+	Elementos em bloco formam um bloco visível na página - Um elemento em bloco não seria aninhado dentro de um elemento inline, mas pode ser aninhado dentro de outro elemento em bloco.
+	
+	Elementos inline (na linha) - Um elemento inline não fará com que uma nova linha apareça no documento: os elementos inline geralmente aparecem dentro de um parágrafo de texto, por exemplo: um elemento <a>(hyperlink) ou elementos de ênfase como <em> ou <strong>.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Nota: Elementos vazios são também chamados de void elements.
+
+
+
+Atributos  boleanos
+
+	Às vezes você verá atributos escritos sem valores — isso é permitido nos chamados atributos boleanos, e eles podem ter somente um valor, que é geralmente o mesmo nome do atributo.
+
+	<input type="text" disabled="disabled">
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Referências de entidades: incluindo caracteres especiais no HTML (referências de caracteres)
+	
+	No HTML, os caracteres <, >,",' e o & são caracteres especiais.
+		<      -     &lt;
+		>      -     &gt;
+		"      -     &quot;
+		'      -     &apos;
+		&      -     &amp;

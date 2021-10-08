@@ -1,0 +1,45 @@
+Itálico, negrito, sublinhado... (<i>, <b>, <u>)
+	
+	Elementos como este, que apenas afetam a apresentação e não a semântica, são conhecidos como elementos de apresentação e não devem mais ser usados, porque, como já vimos, a semântica é importante para a acessibilidade, SEO, etc.
+	Os oficiais e com semântica: 
+		Itálico: <em> - Ênfase 
+		Negrito: <strong> - Importância
+	Para usar sem semântica:
+		Negrito: Para fazer isso, você usaria um elemento <span> e algum CSS, ou talvez um <b>.
+		Itálico: Para fazer isso, você usaria um elemento <span> e alguns CSS, ou talvez um elemento <i>.
+
+	FORMAS DE USAR, DEFINIDAS PELO HTML5:
+
+	<!-- nomes científicos -->
+	<p>
+  		O Colibri Ruby-throated (<i>Archilochus colubris</i>)
+  		é o colibri mais comum do Leste da América do Norte.
+	</p>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+	<!-- palavras estrangeiras -->
+	<p>
+  		O menu era um mar de palavras exóticas como <i lang="uk-latn">vatrushka</i>,
+  		<i lang="id">nasi goreng</i> e <i lang="fr">soupe à l'oignon</i>.
+	</p>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+	<!-- um erro de ortografia conhecido -->
+	<p>
+  		Algum dia eu vou aprender como <u style="text-decoration-line: underline; text-decoration-style: wavy;">jogar</u> melhor.
+	</p>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+	<!-- Destaque as palavras-chave em um conjunto de instruções -->
+	<ol>
+  		<li>
+    		<b>Fatie</b>dois pedaços de pão do pão.
+  		</li>
+  		<li>
+    		<b>Colocar</b> uma fatia de tomate e uma folha de
+     		alface entre as fatias de pão.
+  		</li>
+	</ol>

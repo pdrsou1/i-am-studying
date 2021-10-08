@@ -1,0 +1,5 @@
+Especificando detalhes
+
+	Além do endereço de e-mail, você pode fornecer outras informações. Na verdade, qualquer campo de cabeçalho de correio padrão pode ser adicionado ao URL do mailto: que você fornece. Os mais utilizados são "assunto", "cc" e "corpo" (que não é um campo de cabeçalho verdadeiro, mas permite que você especifique uma mensagem de conteúdo curta para o novo e-mail). Cada campo e seu valor são especificados como um termo de consulta.
+
+	Pesquisa: "mailto links" para mais informações sobre o assunto

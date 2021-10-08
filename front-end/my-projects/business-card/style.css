@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d4e8;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Sora", sans-serif;
+  color: #1b1b46;
+}
+
+#background {
+  width: 600px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+/** NOME **/
+.name {
+  position: absolute;
+  top: 38%;
+  right: 48%;
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+h1 {
+  text-align: right;
+}
+
+p {
+  font-size: 35px;
+}
+
+/** CONTATO **/
+ul {
+  list-style: none;
+}
+
+.contact {
+  position: absolute;
+  font-size: 16px;
+  top: 32%;
+  left: 52%;
+}
+
+.icon {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+}
+
+/** LINKS **/
+a:link,
+a:visited {
+  background-color: none;
+  color: #1b1b46;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover,
+a:active {
+  background-color: #cbc1bf;
+  color: white;
+}
+
+#number {
+  position: relative;
+  top: -5px;
+}
+
+#gmail {
+  position: relative;
+  top: -5px;
+}
+
+#linkedin {
+  position: relative;
+  top: -5px;
+}

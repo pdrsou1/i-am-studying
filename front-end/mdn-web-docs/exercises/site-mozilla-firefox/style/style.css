@@ -1,0 +1,44 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  background-color: #00539f;
+}
+
+body {         /* body tem nível de bloco, o que significa que ocupa espaço na página e pode ter margens e outros valores de espaçamento aplicados a ele */
+  width: 600px;
+  margin: 0 auto; /*  o primeiro valor afeta a parte superior do elemento e a parte inferior, no segundo valor os lados esquerdo e direito */
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* mude individualmente o valor das propriedades para 90px e veja a diferença, 1- top 2- right 3- bottom 4- left */
+  border: 5px solid black;
+}
+
+/* p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+} */
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black; /* 1- right(valores negativos vai para left) 2- bottom(valores negativos vai para top) 3- desfoque (sombra) */
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {          /* imagens tem nível em linha, o que significa que não podem ter margens */                   
+  width: 90px;
+  height: 90px;
+  display: block; /* para aplicar margens a uma imagem, temos que dar o comportamento de nível de bloco a imagem usando essa declaração */
+  margin: 0 auto;
+}
+
+/*   1200 x 1247 */
