@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h2 {
+  margin-bottom: 15px;
+}
+
+body {
+  background-color: #011140;
+  max-width: 900px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  font-size: 20px;
+  text-align: center;
+  color: #c1d9d4;
+  margin: 15px;
+}
+
+article {
+  background-color: #c1d9d4;
+  border: 5px solid #d90452;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 15px;
+}
+
+#my-picture {
+  border: 2px solid #c1d9d4;
+  border-radius: 50%;
+  width: 10%;
+}
+
+.wallpaper-conding {
+  margin-bottom: 15px;
+  width: 100%;
+}
